@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        .row{
+            margin: 5px;
+        }
+        label{
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset{
+            width: 600px;
+        }
+        legend{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="row">
+                <label>Nome: </label><input type="text">
+                <label>E-mail: </label><input type="text">
+            </div>
+            <div class="row">
+                <label>Profissão: </label><input type="text">
+                <label>Empresa: </label><input type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <div class="row">
+                <label>Endereço: </label><input type="text">
+                <label>Número: </label><input type="number">
+            </div>
+            <div class="row">
+                <label>Bairro: </label><input type="text">
+                <label>Cidade/UF: </label><input type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Contato</legend>
+            <div class="row">
+                <label>Celular: </label><input type="text">
+            </div>
+            <div class="row">
+                <label>Whatsapp: </label><input type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Redes Sociais</legend>
+            <div class="row">
+                <label>Linkedin: </label><input type="text">
+                <label>Github: </label><input type="text">
+            </div>
+        </fieldset>
+        <div>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar For</button>
+        </div>
+    </form>
+</body>
+</html>
