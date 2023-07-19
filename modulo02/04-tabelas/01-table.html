@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            border: 1px solid black;
+            width: 100px;
+        }
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+        }
+        caption{
+            caption-side: bottom;
+        }
+        table tr:nth-child(even){
+            background-color: azure;
+        }
+        table tr:hover{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Tabelas</h1>
+    <table>
+        <caption>Tabela dos alunos da Dio</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr id="1">
+            <td>Diogo</td>
+            <td>37</td>
+        </tr>
+        <tr id="2">
+            <td>Maria</td>
+            <td>32</td>
+        </tr>
+        <tr id="3">
+            <td>João</td>
+            <td>30</td>
+        </tr>
+        <tr id="4">
+            <td>Walter</td>
+            <td>20</td>
+        </tr>
+        <tr id="5">
+            <td>Manoela</td>
+            <td>40</td>
+        </tr>
+        <tr id="6">
+            <td>Michele</td>
+            <td>24</td>
+        </tr>
+    </table>
+</body>
+</html>
