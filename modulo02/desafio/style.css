@@ -4,11 +4,53 @@ html, body{
     margin: 0px;
 }
 body{
-
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
 }
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 5px 0px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 1px 5px 1px 5px;
+}
+
 .form01{
     margin 5px;
 }
+
 label{
     display: inline-block;
     text-align: right;
@@ -17,4 +59,9 @@ label{
 }
 fieldset{
     width: 600px;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 100px;
 }
