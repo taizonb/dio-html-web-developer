@@ -22,7 +22,7 @@ body{
 .menu {
     width: 15%;
     background-color: aqua;
-    padding: 10px 5px 0px 0px;
+    padding: 10px 5px 0px 0px; 
 }
 .header {
     background-color: rgb(5, 108, 108);
