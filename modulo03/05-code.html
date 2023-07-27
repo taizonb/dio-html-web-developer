@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        kbd{
+            border: solid 1px black;
+        }
+        pre{
+            background-color: #f1f1f1;
+        }
+        pre > code{
+            color: red;
+        }
+        pre > code > p{
+            font-style: italic;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <!--para teclas do teclado (keyboard)-->
+    <p>Para copiar esta informação, pressione <kbd>CTRL</kbd> + <kbd>C</kbd></p>
+
+    <!--para códigos ou referência de tags (code)-->
+    <p>para torcar o fundo de um elemento, utilize o comando <code>background color</code></p>
+
+    <!--utiliza-se "pre" para agrupar os códigos, pois o "pre" já tem um estilo pré formatado -->
+    <p>comando completo para alterar cor de fundo:</p>
+    <pre>
+        <code>
+            <p>//Olha um exemplo de código:</p>
+            code{
+                background-color: #f1f1f1;
+                color: red;
+            }
+        </code>
+    </pre>
+</body>
+</html>

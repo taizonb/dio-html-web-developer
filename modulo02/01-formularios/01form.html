@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Cadastro</title>
 </head>
-<body>
+<body> <!--O form envia todas as informações contidas nele de 1 só vez (se não teria qu enviar uma a uma)-->
     <form name="signup" autocomplete="off" method="post" action="">
         <label for="name">Nome:</label> <input type="text" name="name"> <br>
         <label for="age">Idade:</label> <input type="number" name="age" min="1" max="112"> <br>
@@ -24,5 +24,6 @@
         <label>file:</label><input type="file" multiple> <br>
         <label>Search:</label><input type="search"> 
     </form>
+    <!--Pode-se usar um input fora do form, contanto que use um id no form e nos inputs colocar a tag form="id do form"-->
 </body>
 </html>
